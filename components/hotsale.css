@@ -62,6 +62,7 @@
   font-weight: 700;
   color: var(--primary);
   letter-spacing: -0.41px;
+  line-height: 22px;
 }
 
 .product_sale-price {

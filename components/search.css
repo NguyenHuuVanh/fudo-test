@@ -1,0 +1,37 @@
+@import "../style.css";
+
+.container {
+  min-height: 100vh;
+}
+
+.greeting {
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  padding: 0 16px;
+}
+
+.header button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.header button img {
+  object-fit: cover;
+}
+
+.search-bar input {
+  width: 342px;
+}

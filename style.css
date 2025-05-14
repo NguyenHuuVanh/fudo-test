@@ -57,10 +57,7 @@ body {
   display: block;
   margin-bottom: 4px;
 }
-.product-info span {
-  color: #388e3c;
-  font-weight: bold;
-}
+
 .product-card button {
   margin-top: 8px;
   background: #388e3c;

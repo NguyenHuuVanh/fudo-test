@@ -1,0 +1,68 @@
+@import "../style.css";
+
+.container {
+  min-height: 100vh;
+}
+
+.item-links {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.item-links h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0.37px;
+  color: var(--primary);
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.filter {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  height: 60px;
+}
+
+.filter li a {
+  text-decoration: none;
+  color: var(--grey);
+  font-size: 12px;
+}
+
+.filter li a.active {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.hot-sale {
+  margin: 0;
+  margin-bottom: 152px;
+}
+
+.hot-sale .product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product_sale-card {
+  cursor: pointer;
+}
+
+.product_sale-card a {
+  text-decoration: none;
+}
