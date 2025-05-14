@@ -1,0 +1,81 @@
+@import "./base/reset.css";
+@import "./layout/navbar.css";
+@import "./layout/menu.css";
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/hotsale.css";
+@import "./components/categori.css";
+@import "./components/suggest.css";
+@import "./layout/footer.css";
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background: #000;
+  margin: 0;
+  color: #222;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  max-width: 430px;
+  background-color: #fff;
+}
+
+.product-list {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+.product-card {
+  background: #f6f6f6;
+  border-radius: 10px;
+  padding: 12px;
+  min-width: 160px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+.product-info {
+  text-align: center;
+}
+.product-info b {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 4px;
+}
+.product-info span {
+  color: #388e3c;
+  font-weight: bold;
+}
+.product-card button {
+  margin-top: 8px;
+  background: #388e3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.combo-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #ff9800;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.85em;
+}

@@ -1,0 +1,7 @@
+@import "../base/variables.css";
+
+.divided {
+  height: 1px;
+  width: 100%;
+  background-color: var(--grey-2);
+}

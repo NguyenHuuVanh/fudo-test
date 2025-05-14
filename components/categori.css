@@ -1,0 +1,41 @@
+.category-section {
+  margin-top: 25px;
+}
+
+.category-header h3 img {
+  width: 21px;
+  height: 21px;
+}
+
+.category-list {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.category-item {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.category-item img {
+  object-fit: cover;
+  width: 191px;
+  height: 100px;
+  border-radius: 16px;
+}
+
+.category-item span {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.41px;
+}

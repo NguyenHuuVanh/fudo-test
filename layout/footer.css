@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 28px 0;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}

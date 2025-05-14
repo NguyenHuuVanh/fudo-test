@@ -1,0 +1,37 @@
+.suggested-combo {
+}
+
+.suggested-header h3 img {
+  width: 24px;
+  height: 29px;
+}
+
+.suggested.product-img {
+  border-top-left-radius: 0;
+}
+
+.suggested.product-img {
+  position: relative;
+  background-color: #f3ebe2;
+}
+
+.suggested.product-img span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 29px;
+  background-color: var(--orange);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+}
+
+.suggested.product_sale-card {
+  padding-bottom: 24px;
+}
