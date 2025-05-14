@@ -1,4 +1,8 @@
 .bottom-menu {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 100;
   display: flex;
   flex-flow: row;
   justify-content: center;

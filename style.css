@@ -8,6 +8,10 @@
 @import "./components/suggest.css";
 @import "./layout/footer.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Helvetica", sans-serif;
   background: #000;
